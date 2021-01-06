@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Reservations</title>
+</head>
+<body>
+
+    <style>
+        .row {
+    margin-left: 5%;
+    }
+
+    button {
+    margin-top: 2%;
+    }
+    </style>
+
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <h1>Hot Restaurant</h1> 
+                    <p>Please enter reservation!</p>
+                    <button class="btn btn-dark btn-lg" id="view-table">View Tables</button>
+                    
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="card" style="width: 61rem;">
+                <div class="card-header">
+                  Reservations
+                </div>
+                <div class="card-body">
+                    <form role="form-group">
+                        <label for="reserve-phone">Name</label>
+                        <input type="text" class="form-control" id="reserve-phone">
+                    </form>
+                    <form role="form-group">
+                        <label for="reserve-phone">Phone Number</label>
+                        <input type="text" class="form-control" id="reserve-phone">
+                    </form>
+                    <form role="form-group">
+                        <label for="reserve-phone">Email</label>
+                        <input type="text" class="form-control" id="reserve-phone">
+                    </form>
+                    <form role="form-group">
+                        <label for="reserve-phone">ID</label>
+                        <input type="text" class="form-control" id="reserve-phone">
+                    </form>
+                    <button class = "btn btn-danger btn-lg">Submit</button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
