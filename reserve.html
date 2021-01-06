@@ -74,9 +74,13 @@
             id: $("#id").val().trim()
         };
 
+        $.post("/api/tables", newReservation)
+        .then(function(data) {
+          console.log("reserve.html", data);
+          alert("Adding table...");
+        });
+    });
 
-    })
-        
 
 
     </script>

@@ -41,6 +41,9 @@ app.get("/", function (req, res) {
 app.get("/add", function (req, res) {
   res.sendFile(path.join(__dirname, "add.html"));
 });
+app.get("/reserve", function (req, res) {
+  res.sendFile(path.join(__dirname, "reserve.html"));
+});
 
 app.get("/api/tables", function (req, res) {
   return res.json(tables);
